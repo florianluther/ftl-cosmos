@@ -1,0 +1,30 @@
+{
+    "name": "ftl-cosmos",
+    "version": "1.0.0",
+    "description": "This package provides basic functionality to manipulate Cosmos DB.",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc -b tsconfig.json",
+        "start": "npm run build && node ./dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/florianluther/ftl-cosmos.git"
+    },
+    "author": "Florian Luther",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/florianluther/ftl-cosmos/issues"
+    },
+    "homepage": "https://github.com/florianluther/ftl-cosmos#readme",
+    "devDependencies": {
+        "@types/node": "^16.11.2",
+        "prettier": "^2.4.1",
+        "ts-node": "^10.3.0",
+        "typescript": "^4.4.4"
+    },
+    "dependencies": {
+        "@florianluther/ftl-logger": "^1.0.5"
+    }
+}
